@@ -12,16 +12,13 @@ https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="RTL.de",RTL
 http://178.219.128.68:64888/RTL
-#EXTINF:-1 tvg-id="RTLSuper.de",RTL Super
+#EXTINF:-1 tvg-id="RTLSuper.de",Super RTL
 http://178.219.128.68:64888/SUPERTL
 #EXTINF:-1 tvg-id="RTLZwei.de",RTL Zwei
 http://178.219.128.68:64888/RTL2
-#EXTINF:-1 tvg-id="ProSieben.de",ProSieben (576p)
+#EXTINF:-1 tvg-id="ProSieben.de",ProSieben
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 http://85.187.13.40:18000/ProSieben
-#EXTINF:-1 tvg-id="ProSieben.de",ProSieben (576p)
-#EXTVLCOPT:http-referrer=https://2ix2.com/pro7/
-https://s6.hopslan.com/pro7x1/index.m3u8
 #EXTINF:-1 tvg-name="tagesschau24" tvg-id="tagesschau24.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-name="WELT" tvg-id="WELT.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
