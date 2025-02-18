@@ -25,7 +25,7 @@ http://85.187.13.40:18000/ProSieben
 #EXTINF:-1 tvg-id="RTL.de",RTL
 http://178.219.128.68:64888/RTL
 
-#EXTINF:-1 tvg-id="RTLZwei.de",RTLII
+#EXTINF:-1 tvg-id="RTLZwei.de",RTL ZWEI
 http://178.219.128.68:64888/RTL2
 
 #EXTINF:-1 tvg-id="RTLSuper.de",Super RTL
