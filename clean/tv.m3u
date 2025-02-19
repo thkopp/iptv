@@ -21,7 +21,6 @@ https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png" group-title="General",ORF 2
 https://strm.hdtvizlecanli.com/live/orf2.m3u8
 
-
 #EXTINF:-1 tvg-id="ProSieben.de",ProSieben
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 http://85.187.13.40:18000/ProSieben
@@ -38,7 +37,7 @@ http://178.219.128.68:64888/SUPERTL
 #EXTINF:-1 tvg-id="VOX.de",VOX
 http://178.219.128.68:64888/VOX
 
-#EXTINF:-1 tvg-id="München.TV.de",München TV
+#EXTINF:-1 tvg-id="münchen.tv.de",München TV
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="tagesschau24" tvg-id="tagesschau24.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
