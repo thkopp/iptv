@@ -1,21 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="Vollprogramm",Das Erste
+#EXTINF:-1 tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF
+#EXTINF:-1 tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-id="BRFernsehen.de" group-title="Regional" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",BR
+#EXTINF:-1 tvg-id="BRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",BR
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 
-#EXTINF:-1 tvg-name="WDR" tvg-id="WDRFernsehen.de" group-title="Regional" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png",WDR
+#EXTINF:-1 tvg-name="WDR" tvg-id="WDRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png",WDR
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 
-#EXTINF:-1 tvg-name="phoenix" tvg-id="phoenix.de" group-title="Nachrichten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png",phoenix
+#EXTINF:-1 tvg-name="phoenix" tvg-id="phoenix.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png",phoenix
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8
 
-#EXTINF:-1 tvg-name="3sat" tvg-id="3sat.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",3sat
+#EXTINF:-1 tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 
-#EXTINF:-1 tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png" group-title="General",ORF 2
+#EXTINF:-1 tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png",ORF 2
 https://strm.hdtvizlecanli.com/live/orf2.m3u8
 
 #EXTINF:-1 tvg-id="ProSieben.de",ProSieben
@@ -37,9 +37,9 @@ http://178.219.128.68:64888/VOX
 #EXTINF:-1 tvg-id="münchen.tv.de",München TV
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="tagesschau24" tvg-id="tagesschau24.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
+#EXTINF:-1 tvg-name="tagesschau24" tvg-id="tagesschau24.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 
-#EXTINF:-1 tvg-name="WELT" tvg-id="WELT.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
+#EXTINF:-1 tvg-name="WELT" tvg-id="WELT.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
 https://welt.personalstream.tv/v1/master.m3u8
 
