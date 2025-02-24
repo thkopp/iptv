@@ -18,6 +18,9 @@ https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8
 #EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 
+#EXTINF:-1 group-title="IPTV" tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png",ORF 2
+https://strm.hdtvizlecanli.com/live/orf2.m3u8
+
 #EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de",ProSieben
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 http://85.187.13.40:18000/ProSieben
@@ -43,12 +46,12 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 #EXTINF:-1 group-title="IPTV" tvg-name="WELT" tvg-id="WELT.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
 https://welt.personalstream.tv/v1/master.m3u8
 
-#EXTINF:-1 tvg-id="ZDFinfo.de",ZDFinfo
+#EXTINF:-1 group-title="IPTV" tvg-id="ZDFinfo.de",ZDFinfo
 https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
 
-#EXTINF:-1 tvg-id="ZDFneo.de",ZDFneo
+#EXTINF:-1 group-title="IPTV" tvg-id="ZDFneo.de",ZDFneo
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 
-#EXTINF:-1 tvg-id="WeltderWunderTV.de",Welt der Wunder TV
+#EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",Welt der Wunder TV
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 
