@@ -6,7 +6,7 @@ pipe://ffmpeg -loglevel fatal -i https://daserste-live.ard-mcdn.de/daserste/live
 #EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDF -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 tvg-name="BR" tvg-id="BRFernsehen.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",BR
+#EXTINF:-1 tvg-name="BR" tvg-id="BRFernsehen.de" group-title="IPTV" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",BR
 pipe://ffmpeg -loglevel fatal -i https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8 -vcodec copy -acodec copy -metadata service_name=BR -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="WDR" tvg-id="WDRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png",WDR
@@ -22,7 +22,6 @@ pipe://ffmpeg -loglevel fatal -i https://zdf-hls-18.akamaized.net/hls/live/20165
 pipe://ffmpeg -loglevel fatal -i https://strm.hdtvizlecanli.com/live/orf2.m3u8 -vcodec copy -acodec copy -metadata service_name=ORF\ 2 -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de",ProSieben
-#EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 pipe://ffmpeg -loglevel fatal -i http://85.187.13.40:18000/ProSieben -vcodec copy -acodec copy -metadata service_name=ProSieben -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-id="RTL.de",RTL
