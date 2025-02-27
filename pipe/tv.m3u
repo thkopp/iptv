@@ -1,12 +1,12 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="IPTV" tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
+#EXTINF:-1 group-title="IPTV" tvg-name="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
 pipe://ffmpeg -loglevel fatal -i https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8 -vcodec copy -acodec copy -metadata service_name=Das\ Erste -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF
+#EXTINF:-1 group-title="IPTV" tvg-name="ZDF" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDF -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 tvg-name="BR" tvg-id="BRFernsehen.de" group-title="IPTV" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",BR
+#EXTINF:-1 group-title="IPTV" tvg-name="BR" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",BR
 pipe://ffmpeg -loglevel fatal -i https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8 -vcodec copy -acodec copy -metadata service_name=BR -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="WDR" tvg-id="WDRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png",WDR
@@ -18,25 +18,22 @@ pipe://ffmpeg -loglevel fatal -i https://zdf-hls-19.akamaized.net/hls/live/20165
 #EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",3sat
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=3sat -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png",ORF 2
-pipe://ffmpeg -loglevel fatal -i https://strm.hdtvizlecanli.com/live/orf2.m3u8 -vcodec copy -acodec copy -metadata service_name=ORF\ 2 -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
-
-#EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de",ProSieben
+#EXTINF:-1 group-title="IPTV" tvg-name="ProSieben",ProSieben
 pipe://ffmpeg -loglevel fatal -i http://85.187.13.40:18000/ProSieben -vcodec copy -acodec copy -metadata service_name=ProSieben -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTL.de",RTL
+#EXTINF:-1 group-title="IPTV" tvg-name="RTL",RTL
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/RTL -vcodec copy -acodec copy -metadata service_name=RTL -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLZwei.de",RTL II
+#EXTINF:-1 group-title="IPTV" tvg-name="RTLZwei",RTL II
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/RTL2 -vcodec copy -acodec copy -metadata service_name=RTL\ II -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLSuper.de",Super RTL
+#EXTINF:-1 group-title="IPTV" tvg-name="RTLSuper",Super RTL
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/SUPERTL -vcodec copy -acodec copy -metadata service_name=Super\ RTL -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="VOX.de",VOX
+#EXTINF:-1 group-title="IPTV" tvg-name="VOX",VOX
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/VOX -vcodec copy -acodec copy -metadata service_name=VOX -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="münchen.tv.de",München TV
+#EXTINF:-1 group-title="IPTV" tvg-name="münchen.tv",München TV
 pipe://ffmpeg -loglevel fatal -i https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=München\ TV -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="tagesschau24" tvg-id="tagesschau24.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
@@ -45,11 +42,11 @@ pipe://ffmpeg -loglevel fatal -i https://tagesschau.akamaized.net/hls/live/20201
 #EXTINF:-1 group-title="IPTV" tvg-name="WELT" tvg-id="WELT.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
 pipe://ffmpeg -loglevel fatal -i https://welt.personalstream.tv/v1/master.m3u8 -vcodec copy -acodec copy -metadata service_name=WELT -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ZDFinfo.de",ZDFinfo
+#EXTINF:-1 group-title="IPTV" tvg-name="ZDFinfo",ZDFinfo
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDFinfo -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ZDFneo.de",ZDFneo
+#EXTINF:-1 group-title="IPTV" tvg-name="ZDFneo",ZDFneo
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDFneo -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",Welt der Wunder TV
+#EXTINF:-1 group-title="IPTV" tvg-name="WeltderWunderTV",Welt der Wunder TV
 pipe://ffmpeg -loglevel fatal -i https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=Welt\ der\ Wunder\ TV -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
