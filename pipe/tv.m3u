@@ -19,7 +19,7 @@ pipe://ffmpeg -loglevel fatal -i https://zdf-hls-19.akamaized.net/hls/live/20165
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=3sat -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png",ORF 2
-pipe://ffmpeg -loglevel fatal -i https://strm.hdtvizlecanli.com/live/orf2.m3u8 -vcodec copy -acodec copy -metadata service_name=3sat -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i https://strm.hdtvizlecanli.com/live/orf2.m3u8 -vcodec copy -acodec copy -metadata service_name=ORF\ 2 -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="ProSieben",ProSieben
 pipe://ffmpeg -loglevel fatal -i http://85.187.13.40:18000/ProSieben -vcodec copy -acodec copy -metadata service_name=ProSieben -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
