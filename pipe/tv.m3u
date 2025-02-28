@@ -33,7 +33,7 @@ pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/SUPERTL -vcodec cop
 #EXTINF:-1 group-title="IPTV" tvg-name="VOX",VOX
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/VOX -vcodec copy -acodec copy -metadata service_name=VOX -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="münchen.tv",München TV
+#EXTINF:-1 group-title="IPTV" tvg-name="münchen.tv",München.TV
 pipe://ffmpeg -loglevel fatal -i https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=München\ TV -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="tagesschau24" tvg-id="tagesschau24.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
@@ -48,5 +48,5 @@ pipe://ffmpeg -loglevel fatal -i https://zdf-hls-17.akamaized.net/hls/live/20165
 #EXTINF:-1 group-title="IPTV" tvg-name="ZDFneo",ZDFneo
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDFneo -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="WeltderWunderTV",Welt der Wunder TV
+#EXTINF:-1 group-title="IPTV" tvg-name="WeltderWunderTV",Welt der Wunder
 pipe://ffmpeg -loglevel fatal -i https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=Welt\ der\ Wunder\ TV -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
