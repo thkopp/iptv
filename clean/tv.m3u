@@ -52,6 +52,6 @@ https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
 #EXTINF:-1 group-title="IPTV" tvg-id="ZDFneo.de",ZDFneo
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",Welt der Wunder TV
+#EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",Welt der Wunder
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 
