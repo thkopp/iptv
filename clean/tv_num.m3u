@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="IPTV" tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",30 Das Erste
+#EXTINF:-1 group-title="IPTV" tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",01 Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master1080p5000.m3u8
 
 #EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",02 ZDF
