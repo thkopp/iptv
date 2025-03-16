@@ -1,9 +1,10 @@
 #EXTM3U
 
 #EXTINF:-1 group-title="IPTV" tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",01 Das Erste
-#EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE="de",NAME="Deutsch",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",GROUP-ID="program_audio",URI="masteraudio1.m3u8"
-#EXT-X-MEDIA:TYPE=SUBTITLES,NAME="Deutsch",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE="de",GROUP-ID="subs",URI="mastersubs.m3u8"
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master1080p5000.m3u8
+#EXT-X-MEDIA:TYPE=AUDIO,LANGUAGE="de",NAME="Deutsch",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",GROUP-ID="program_audio",URI="https://daserste-live.ard-mcdn.de/daserste/live/hls/de/masteraudio1.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,NAME="Deutsch",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE="de",GROUP-ID="subs",URI="https://daserste-live.ard-mcdn.de/daserste/live/hls/de/mastersubs.m3u8"
+
 
 #EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",02 ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/94ab1bc7d961e2d287fc326768bfa569/4/4.m3u8
