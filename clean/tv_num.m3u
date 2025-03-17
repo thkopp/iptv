@@ -4,7 +4,7 @@
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 
 #EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",02 ZDF
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/94ab1bc7d961e2d287fc326768bfa569/4/4.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
 
 #EXTINF:-1 group-title="IPTV" tvg-id="BRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",03 BR
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
