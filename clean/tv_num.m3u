@@ -18,23 +18,23 @@ https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8
 #EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",06 3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de",07 ProSieben
+#EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/ProSieben_logo.svg",07 ProSieben
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 http://85.187.13.40:18000/ProSieben
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTL.de",08 RTL
+#EXTINF:-1 group-title="IPTV" tvg-id="RTL.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/0/0f/RTL_DE_Logo_2021_pink_blau_gruen.png",08 RTL
 http://178.219.128.68:64888/RTL
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLZwei.de",09 RTL II
+#EXTINF:-1 group-title="IPTV" tvg-id="RTLZwei.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/1920px-RTLZWEI_Logo_2019.svg.png",09 RTL II
 http://178.219.128.68:64888/RTL2
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLSuper.de",10 Super RTL
+#EXTINF:-1 group-title="IPTV" tvg-id="RTLSuper.de"  tvg-id="",10 Super RTL
 http://178.219.128.68:64888/SUPERTL
 
-#EXTINF:-1 group-title="IPTV" tvg-id="VOX.de",11 VOX
+#EXTINF:-1 group-title="IPTV" tvg-id="VOX.de" tvg-id="",11 VOX
 http://178.219.128.68:64888/VOX
 
-#EXTINF:-1 group-title="IPTV" tvg-id="münchen.tv.de",12 München TV
+#EXTINF:-1 group-title="IPTV" tvg-id="münchen.tv.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/1/1f/M%C3%BCnchen_tv_Logo.svg",12 München TV
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 
 #EXTINF:-1 group-title="IPTV" tvg-name="tagesschau24" tvg-id="tagesschau24.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",13 tagesschau24
@@ -52,5 +52,5 @@ https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 #EXTINF:-1 group-title="IPTV" tvg-id="ORF 2" tvg-logo="https://i.imgur.com/svgv2q5.png",17 ORF 2
 https://strm.hdtvizlecanli.com/live/orf2.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",18 Welt der Wunder
+#EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_Welt_der_Wunder_neu.svg/2560px-Logo_Welt_der_Wunder_neu.svg.png",18 Welt der Wunder
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
