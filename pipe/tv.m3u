@@ -24,7 +24,7 @@ pipe://ffmpeg -loglevel fatal -i http://85.187.13.40:18000/ProSieben -vcodec cop
 #EXTINF:-1 group-title="IPTV" tvg-name="RTL" tvg-id="https://upload.wikimedia.org/wikipedia/commons/0/0f/RTL_DE_Logo_2021_pink_blau_gruen.png",RTL
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/RTL -vcodec copy -acodec copy -metadata service_name=RTL -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="RTLZwei" tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/1920px-RTLZWEI_Logo_2019.svg.png",RTL II
+#EXTINF:-1 group-title="IPTV" tvg-name="RTLZwei",RTL II
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/RTL2 -vcodec copy -acodec copy -metadata service_name=RTL\ II -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="RTLSuper",Super RTL
