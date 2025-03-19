@@ -30,10 +30,10 @@ pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/RTL2 -vcodec copy -
 #EXTINF:-1 group-title="IPTV" tvg-name="RTLSuper" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/RTL_Super_Logo_2023.svg/2560px-RTL_Super_Logo_2023.svg.png",Super RTL
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/SUPERTL -vcodec copy -acodec copy -metadata service_name=Super\ RTL -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="VOX" tvg-logo="https://upload.wikimedia.org/wikipedia/de/7/70/Vox_Logo.svg",VOX
+#EXTINF:-1 group-title="IPTV" tvg-name="VOX" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Vox_Logo.svg/2560px-Vox_Logo.svg.png",VOX
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/VOX -vcodec copy -acodec copy -metadata service_name=VOX -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="münchen.tv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/M%C3%BCnchen_tv_Logo.svg",München.TV
+#EXTINF:-1 group-title="IPTV" tvg-name="münchen.tv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/M%C3%BCnchen_TV_Logo_2013.svg/2560px-M%C3%BCnchen_TV_Logo_2013.svg.png",München.TV
 pipe://ffmpeg -loglevel fatal -i https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=München\ TV -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="tagesschau24" tvg-id="tagesschau24.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
