@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 group-title="IPTV" tvg-name="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
-pipe://ffmpeg -loglevel fatal -i https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8 -vcodec copy -acodec copy -metadata service_name=Das\ Erste -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8 -map 0:1 -map 0:5 -vcodec copy -acodec copy -metadata service_name=Das\ Erste -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="ZDF" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDF -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
