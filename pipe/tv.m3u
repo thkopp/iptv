@@ -15,7 +15,7 @@ pipe://ffmpeg -loglevel fatal -i https://wdrfs247.akamaized.net/hls/live/681509/
 #EXTINF:-1 group-title="IPTV" tvg-name="phoenix" tvg-id="phoenix.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png",phoenix
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=phoenix -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",3sat
+#EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/3sat-Logo.svg/640px-3sat-Logo.svg.png",3sat
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=3sat -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="ProSieben" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/ProSieben_logo.svg",ProSieben
@@ -30,7 +30,7 @@ pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/RTL2 -vcodec copy -
 #EXTINF:-1 group-title="IPTV" tvg-name="RTLSuper" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/RTL_Super_Logo_2023.svg/2560px-RTL_Super_Logo_2023.svg.png",Super RTL
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/SUPERTL -vcodec copy -acodec copy -metadata service_name=Super\ RTL -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="VOX" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Vox_Logo.svg/2560px-Vox_Logo.svg.png",VOX
+#EXTINF:-1 group-title="IPTV" tvg-name="VOX" tvg-logo="https://upload.wikimedia.org/wikipedia/de/a/ac/VOX_Logo.png",VOX
 pipe://ffmpeg -loglevel fatal -i http://178.219.128.68:64888/VOX -vcodec copy -acodec copy -metadata service_name=VOX -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="münchen.tv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/M%C3%BCnchen_TV_Logo_2013.svg/2560px-M%C3%BCnchen_TV_Logo_2013.svg.png",München.TV
@@ -42,10 +42,10 @@ pipe://ffmpeg -loglevel fatal -i https://tagesschau.akamaized.net/hls/live/20201
 #EXTINF:-1 group-title="IPTV" tvg-name="WELT" tvg-id="WELT.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
 pipe://ffmpeg -loglevel fatal -i https://welt.personalstream.tv/v1/master.m3u8 -vcodec copy -acodec copy -metadata service_name=WELT -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="ZDFinfo" tvg-logo="https://de.wikipedia.org/wiki/ZDFinfo#/media/Datei:ZDFinfo_2011.svg",ZDFinfo
+#EXTINF:-1 group-title="IPTV" tvg-name="ZDFinfo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/ZDF_info_HD.svg/320px-ZDF_info_HD.svg.png",ZDFinfo
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDFinfo -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 group-title="IPTV" tvg-name="ZDFneo" tvg-logo="https://de.wikipedia.org/wiki/ZDFneo#/media/Datei:ZDFneo2017_Logo.svg",ZDFneo
+#EXTINF:-1 group-title="IPTV" tvg-name="ZDFneo" tvg-logo="https://de.wikipedia.org/wiki/ZDFneo#/media/Datei:ZDFneo2017_Logo.svg/2",ZDFneo
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ZDFneo -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
 #EXTINF:-1 group-title="IPTV" tvg-name="WeltderWunderTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_Welt_der_Wunder_neu.svg/2560px-Logo_Welt_der_Wunder_neu.svg.png",Welt der Wunder
