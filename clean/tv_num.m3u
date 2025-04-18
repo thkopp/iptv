@@ -1,31 +1,31 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="IPTV" tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png","01 Das Erste"
+#EXTINF:-1 group-title="IPTV" tvg-id="Das Erste" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",01 Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png","02 ZDF"
+#EXTINF:-1 group-title="IPTV" tvg-id="ZDF.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",02 ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-id="BRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png","03 BR"
+#EXTINF:-1 group-title="IPTV" tvg-id="BRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png",03 BR
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-name="WDR" tvg-id="WDRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png","04 WDR"
+#EXTINF:-1 group-title="IPTV" tvg-name="WDR" tvg-id="WDRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png",04 WDR
 https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-name="phoenix" tvg-id="phoenix.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png","05 phoenix"
+#EXTINF:-1 group-title="IPTV" tvg-name="phoenix" tvg-id="phoenix.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png",05 phoenix
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png","06 3sat"
+#EXTINF:-1 group-title="IPTV" tvg-name="3sat" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",06 3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 
-#EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/ProSieben_logo.svg","07 ProSieben"
+#EXTINF:-1 group-title="IPTV" tvg-id="ProSieben.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/ProSieben_logo.svg",07 ProSieben
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 http://85.187.13.40:18000/ProSieben
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTL.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/0/0f/RTL_DE_Logo_2021_pink_blau_gruen.png","08 RTL"
+#EXTINF:-1 group-title="IPTV" tvg-id="RTL.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/0/0f/RTL_DE_Logo_2021_pink_blau_gruen.png",08 RTL
 http://178.219.128.68:64888/RTL
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLZwei.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/1920px-RTLZWEI_Logo_2019.svg.png","09 RTL II"
+#EXTINF:-1 group-title="IPTV" tvg-id="RTLZwei.de" tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/1920px-RTLZWEI_Logo_2019.svg.png",09 RTL II
 http://178.219.128.68:64888/RTL2
 
 #EXTINF:-1 group-title="IPTV" tvg-id="RTLSuper.de"  tvg-id="",10 Super RTL
