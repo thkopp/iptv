@@ -25,18 +25,6 @@ https://strm.hdtvizlecanli.com/live/orf2.m3u8
 #EXTVLCOPT:http-referrer=http://85.187.13.40:18000/
 http://85.187.13.40:18000/ProSieben
 
-#EXTINF:-1 group-title="IPTV" tvg-id="RTL.de",RTL
-http://178.219.128.68:64888/RTL
-
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLZwei.de",RTL II
-http://178.219.128.68:64888/RTL2
-
-#EXTINF:-1 group-title="IPTV" tvg-id="RTLSuper.de",Super RTL
-http://178.219.128.68:64888/SUPERTL
-
-#EXTINF:-1 group-title="IPTV" tvg-id="VOX.de",VOX
-http://178.219.128.68:64888/VOX
-
 #EXTINF:-1 group-title="IPTV" tvg-id="münchen.tv.de",München TV
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 
