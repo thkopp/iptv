@@ -12,6 +12,9 @@ pipe://ffmpeg -loglevel fatal -i https://mcdn.br.de/br/fs/bfs_sued/hls/de/master
 #EXTINF:-1 group-title="IPTV" tvg-chno="4" tvg-name="WDR" tvg-id="WDRFernsehen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png",WDR
 pipe://ffmpeg -loglevel fatal -i https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8 -map 0:5 -map 0:11 -vcodec copy -acodec copy -metadata service_name=WDR -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
+#EXTINF:-1 tvg-name="ARTE HD" tvg-id="ARTE.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png",ARTE HD
+pipe://ffmpeg -loglevel fatal -i https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/master.m3u8 -vcodec copy -acodec copy -metadata service_name=ARTE\ HD -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+
 #EXTINF:-1 group-title="IPTV" tvg-chno="5" tvg-name="phoenix" tvg-id="phoenix.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png",phoenix
 pipe://ffmpeg -loglevel fatal -i https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8 -vcodec copy -acodec copy -metadata service_name=phoenix -metadata service_provider=IPTV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
