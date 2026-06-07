@@ -38,6 +38,3 @@ https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 
 #EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",Welt der Wunder
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
-
-#EXTINF:-1 group-title="IPTV" tvg-id="SRF 2",SRF 2
-https://srgssruni2ch-lh.akamaihd.net/i/enc2uni_ch@191041/master.m3u8
