@@ -38,3 +38,9 @@ https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 
 #EXTINF:-1 group-title="IPTV" tvg-id="WeltderWunderTV.de",Welt der Wunder
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
+
+#EXTINF:0,Das Erste HD
+#EXTVLCOPT:network-caching=1000
+rtsp://192.168.40.1:554/?avm=1&freq=386&bw=8&msys=dvbc&mtype=256qam&sr=6900&specinv=1&pids=0,16,17,18,20,5100,5101,1170,1176,2171,2172,5102,5103,5104,5105,5107
+
+
